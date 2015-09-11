@@ -7,14 +7,14 @@
 	<key>IDESourceControlProjectIdentifier</key>
 	<string>102FAD48-E865-46FA-A9DB-2DE9D9EC2F9B</string>
 	<key>IDESourceControlProjectName</key>
-	<string>project</string>
+	<string>ios_demo</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>BB5A0A50BE3BA9B0A36047E5685E282AE34306A2</key>
 		<string>https://github.com/wangsucheng0715/demo_iOS.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>ios_demo/ios_demo.xcodeproj/project.xcworkspace</string>
+	<string>ios_demo/ios_demo.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>BB5A0A50BE3BA9B0A36047E5685E282AE34306A2</key>
