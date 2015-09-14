@@ -16,6 +16,15 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+    self.view.backgroundColor = [UIColor greenColor];
+    
+    UILabel* demoLabel = [[UILabel alloc] init];
+    demoLabel.frame = CGRectMake(0, 100, self.view.frame.size.width, 30);
+    demoLabel.text = @"测试label";
+    demoLabel.textAlignment = NSTextAlignmentCenter;
+    [self.view addSubview:demoLabel];
+    
     // Do any additional setup after loading the view, typically from a nib.
 }
 
