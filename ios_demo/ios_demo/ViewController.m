@@ -31,6 +31,12 @@
     demoLabel1.textAlignment = NSTextAlignmentCenter;
     [self.view addSubview:demoLabel1];
     
+    UIButton* demoBtn = [UIButton buttonWithType:UIButtonTypeCustom];
+    demoBtn.frame = CGRectMake(0, 300, self.view.frame.size.width, 30);
+    [demoBtn setTitle:@"测试Btn" forState:UIControlStateNormal];
+    [demoBtn addTarget:self action:@selector(btnPress) forControlEvents:UIControlEventTouchUpInside];
+    [self.view addSubview:demoBtn];
+    
     // Do any additional setup after loading the view, typically from a nib.
 }
 
