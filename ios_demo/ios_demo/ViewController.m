@@ -25,6 +25,12 @@
     demoLabel.textAlignment = NSTextAlignmentCenter;
     [self.view addSubview:demoLabel];
     
+    UILabel* demoLabel1 = [[UILabel alloc] init];
+    demoLabel1.frame = CGRectMake(0, 200, self.view.frame.size.width, 30);
+    demoLabel1.text = @"测试label";
+    demoLabel1.textAlignment = NSTextAlignmentCenter;
+    [self.view addSubview:demoLabel1];
+    
     // Do any additional setup after loading the view, typically from a nib.
 }
 
