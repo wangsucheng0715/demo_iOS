@@ -26,10 +26,15 @@
     [self.view addSubview:demoLabel];
     
     UILabel* demoLabel1 = [[UILabel alloc] init];
+    demoLabel1.backgroundColor = [UIColor orangeColor];
+    demoLabel1.userInteractionEnabled = YES;
     demoLabel1.frame = CGRectMake(0, 200, self.view.frame.size.width, 30);
     demoLabel1.text = @"测试label";
     demoLabel1.textAlignment = NSTextAlignmentCenter;
     [self.view addSubview:demoLabel1];
+    
+    UITapGestureRecognizer* oneTap = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(lablePress)];
+    [demoLabel1 addGestureRecognizer:oneTap];
     
     UIButton* demoBtn = [UIButton buttonWithType:UIButtonTypeCustom];
     demoBtn.frame = CGRectMake(0, 300, self.view.frame.size.width, 30);
@@ -38,6 +43,14 @@
     [self.view addSubview:demoBtn];
     
     // Do any additional setup after loading the view, typically from a nib.
+}
+
+-(void)lablePress{
+    NSLog(@"lablePress");
+}
+
+-(void)btnPress{
+    NSLog(@"btnPress");
 }
 
 - (void)didReceiveMemoryWarning {
