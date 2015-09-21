@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		381B300352B400EE4675BEC2 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F0D8967C0C191EA5F5002E9C /* libPods.a */; };
-		5C28140E1BA677D30012A976 /* 新建文件测试jenkins上是否存在 in Resources */ = {isa = PBXBuildFile; fileRef = 5C28140D1BA677D30012A976 /* 新建文件测试jenkins上是否存在 */; };
 		5C3389F81BA2A8AF00E7B22D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C3389F71BA2A8AF00E7B22D /* main.m */; };
 		5C3389FB1BA2A8AF00E7B22D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C3389FA1BA2A8AF00E7B22D /* AppDelegate.m */; };
 		5C3389FE1BA2A8AF00E7B22D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C3389FD1BA2A8AF00E7B22D /* ViewController.m */; };
@@ -29,7 +28,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		5C28140D1BA677D30012A976 /* 新建文件测试jenkins上是否存在 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "新建文件测试jenkins上是否存在"; sourceTree = SOURCE_ROOT; };
 		5C3389F21BA2A8AF00E7B22D /* ios_demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ios_demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C3389F61BA2A8AF00E7B22D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5C3389F71BA2A8AF00E7B22D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -79,7 +77,6 @@
 			isa = PBXGroup;
 			children = (
 				5C3389F41BA2A8AF00E7B22D /* ios_demo */,
-				5C28140D1BA677D30012A976 /* 新建文件测试jenkins上是否存在 */,
 				5C338A0E1BA2A8AF00E7B22D /* ios_demoTests */,
 				5C3389F31BA2A8AF00E7B22D /* Products */,
 				F43A7CBF5D129B0F186C37B5 /* Pods */,
@@ -238,7 +235,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5C28140E1BA677D30012A976 /* 新建文件测试jenkins上是否存在 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
